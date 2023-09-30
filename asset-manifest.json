@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/myProfile/static/css/main.fa16bf46.css",
+    "main.js": "/myProfile/static/js/main.a203723a.js",
+    "static/js/787.419af693.chunk.js": "/myProfile/static/js/787.419af693.chunk.js",
+    "static/media/Backery.png": "/myProfile/static/media/Backery.b7633f0f62c59de973aa.png",
+    "static/media/noxe.png": "/myProfile/static/media/noxe.ebee08320decba9b1894.png",
+    "static/media/react-movie-app.png": "/myProfile/static/media/react-movie-app.a004e109e969ad0d59c2.png",
+    "static/media/simone.png": "/myProfile/static/media/simone.77e6fae3b7ebfdcf8670.png",
+    "static/media/fa-solid-900.ttf": "/myProfile/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/Fokir.png": "/myProfile/static/media/Fokir.6bb65bcacbc087e4d12b.png",
+    "static/media/fa-brands-400.ttf": "/myProfile/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/myProfile/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/myProfile/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/A..png": "/myProfile/static/media/A..bf71e13c8e60269da54c.png",
+    "static/media/profilePic2.png": "/myProfile/static/media/profilePic2.bc3933c702efcadcd22a.png",
+    "static/media/fa-regular-400.ttf": "/myProfile/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/calculator.png": "/myProfile/static/media/calculator.3fdb5f3b5abd94ddf67f.png",
+    "static/media/cruds.png": "/myProfile/static/media/cruds.fb0137f15a7d0933a3ad.png",
+    "static/media/fa-regular-400.woff2": "/myProfile/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/xo.png": "/myProfile/static/media/xo.18d2f84212532cefe219.png",
+    "static/media/fa-v4compatibility.ttf": "/myProfile/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/myProfile/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/myProfile/index.html",
+    "main.fa16bf46.css.map": "/myProfile/static/css/main.fa16bf46.css.map",
+    "main.a203723a.js.map": "/myProfile/static/js/main.a203723a.js.map",
+    "787.419af693.chunk.js.map": "/myProfile/static/js/787.419af693.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa16bf46.css",
+    "static/js/main.a203723a.js"
+  ]
+}
