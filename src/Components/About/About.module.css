@@ -1,0 +1,72 @@
+.positonStyle {
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.bigTitle {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(239, 239, 239);
+}
+
+.smallTitle {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+
+    .bigTitle {
+        font-size: 40px;
+
+    }
+
+    .smallTitle {
+        font-size: 20px;
+    }
+    .subTitle 
+    {
+        font-size: 18px !important;
+        margin-top: 15px;
+    }
+    p 
+    {
+        font-size: 11px;
+    }
+    button 
+    {
+        font-size:11px !important ;
+    }
+
+
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+
+    .bigTitle {
+        font-size: 60px;
+
+    }
+
+    .smallTitle {
+        font-size: 30px;
+    }
+    .subTitle 
+    {
+        font-size: 25px !important;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    p 
+    {
+        font-size: 16px;
+    }
+    button 
+    {
+        font-size:16px !important ;
+    }
+
+
+}

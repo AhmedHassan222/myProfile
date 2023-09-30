@@ -1,0 +1,131 @@
+.positonStyle {
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.bigTitle {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(239, 239, 239);
+}
+
+.smallTitle {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+    background-color: whitesmoke;
+    resize: none;
+
+}
+
+
+
+input:focus,
+textarea:focus {
+    outline: none
+}
+
+form {
+    width: 50%;
+}
+
+.inputSpecial {
+    width: 50%;
+}
+
+.bigScreen {
+    display: flex;
+}
+
+.character {
+    font-size: 12px !important;
+}
+
+@media screen and (min-width:0px) and (max-width:576px) {
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 11px;
+    }
+
+    .bigTitle {
+        font-size: 40px;
+
+    }
+
+    .smallTitle {
+        font-size: 20px;
+    }
+
+    .tabItem {
+        font-size: 11px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .inputSpecial {
+        width: 100% !important;
+        margin-block: 15px;
+    }
+
+    .bigScreen {
+        display: block;
+    }
+
+    button {
+        font-size: 11px !important;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 16px !important;
+    }
+
+    .bigTitle {
+        font-size: 60px;
+
+    }
+
+    .smallTitle {
+        font-size: 30px;
+    }
+
+    .tabItem {
+        font-size: 11px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .inputSpecial {
+        width: 100% !important;
+        margin-block: 15px;
+    }
+
+    .bigScreen {
+        display: block;
+    }
+
+    button {
+        font-size: 16px !important;
+    }
+
+
+}

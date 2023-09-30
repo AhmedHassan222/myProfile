@@ -1,0 +1,96 @@
+.positonStyle {
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+
+.bigTitle {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: rgb(239, 239, 239);
+}
+
+.smallTitle {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.tabItem  
+{
+    color: black;
+    font-weight: bold;
+}
+.tabItem:hover 
+{
+    cursor: pointer;
+}
+
+
+.box:hover .positionStyle
+{
+    opacity: 1;
+}
+
+
+.positionStyle 
+{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.4s;
+    overflow: hidden;
+    opacity: 0;
+
+}
+.bgStyle 
+{
+    background-color: rgb(10, 88, 202);
+    transition: all 0.5s;
+}
+.bgStyle:hover
+{
+    cursor: pointer;
+    background-color: rgb(11, 67, 151);
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:576px) {
+
+    .bigTitle {
+        font-size: 40px;
+
+    }
+
+    .smallTitle {
+        font-size: 20px;
+    }
+
+    .tabItem 
+    {
+        font-size: 11px !important;
+    }
+
+
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+
+    .bigTitle {
+        font-size: 60px;
+
+    }
+
+    .smallTitle {
+        font-size: 30px;
+    }
+    .tabItem 
+    {
+        font-size: 15px !important;
+    }
+
+
+}
