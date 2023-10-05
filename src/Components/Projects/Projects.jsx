@@ -9,6 +9,7 @@ import crud from "../../assets/cruds.png"
 import calculator from "../../assets/calculator.png"
 import AProfile from "../../assets/A..png"
 import { Helmet } from 'react-helmet'
+import eMarket from "../../assets/eMarket.png"
 export default function Project() {
 
     function allProjects() {
@@ -21,6 +22,7 @@ export default function Project() {
         document.querySelector('#seven').classList.remove('d-none')
         document.querySelector('#eight').classList.remove('d-none')
         document.querySelector('#nine').classList.remove('d-none')
+        document.querySelector('#ten').classList.remove('d-none')
         document.querySelector('#allProjects').style.cssText = 'color:#0a58ca'
         document.querySelector('#reactJS').style.cssText = 'color:black'
         document.querySelector('#AngularJS').style.cssText = 'color:black'
@@ -30,6 +32,7 @@ export default function Project() {
     }
     function reactJS() {
         document.querySelector('#one').classList.remove('d-none')
+        document.querySelector('#ten').classList.remove('d-none')
         document.querySelector('#two').classList.add('d-none')
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
@@ -51,6 +54,8 @@ export default function Project() {
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
         document.querySelector('#five').classList.add('d-none')
+        document.querySelector('#ten').classList.add('d-none')
+
         document.querySelector('#six').classList.add('d-none')
         document.querySelector('#seven').classList.add('d-none')
         document.querySelector('#eight').classList.add('d-none')
@@ -67,6 +72,8 @@ export default function Project() {
         document.querySelector('#three').classList.remove('d-none')
         document.querySelector('#four').classList.remove('d-none')
         document.querySelector('#five').classList.remove('d-none')
+        document.querySelector('#ten').classList.add('d-none')
+
         document.querySelector('#six').classList.add('d-none')
         document.querySelector('#seven').classList.add('d-none')
         document.querySelector('#eight').classList.add('d-none')
@@ -82,6 +89,8 @@ export default function Project() {
         document.querySelector('#two').classList.add('d-none')
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
+        document.querySelector('#ten').classList.add('d-none')
+
         document.querySelector('#five').classList.add('d-none')
         document.querySelector('#six').classList.remove('d-none')
         document.querySelector('#seven').classList.remove('d-none')
@@ -120,6 +129,17 @@ export default function Project() {
                 </li>
             </ul>
             <div className="row py-5 g-4">
+                <div id='ten' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box} `} >
+                    <img className={`w-100 ${style.imgStyle}`} src={eMarket} alt="" />
+                    <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
+                        <a target='_blank' href="https://github.com/AhmedHassan222/Ecommerece-React-App">
+                            <i class={`fa-solid fa-code fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                        </a>
+                        <a target='_blank' href="https://ahmedhassan222.github.io/Ecommerece-React-App/">
+                            <i class={`fa-solid fa-display fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                        </a>
+                    </div>
+                </div>
                 <div id='one' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box} `} >
                     <img className={`w-100 ${style.imgStyle}`} src={reactMovieAppImage} alt="" />
                     <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
@@ -142,9 +162,7 @@ export default function Project() {
                         </a>
                     </div>
                 </div>
-                <div id='three' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  bounceInRight
-bounceInRight
-bounceInRight`} >
+                <div id='three' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  `} >
                     <img className={`w-100 ${style.imgStyle}`} src={backery} alt="" />
                     <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
                         <a target='_blank' href="https://github.com/AhmedHassan222/Backery">
@@ -177,9 +195,7 @@ bounceInRight`} >
                         </a>
                     </div>
                 </div>
-                <div id='five' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  bounceInRight
-bounceInRight
-bounceInRight`} >
+                <div id='five' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box} `} >
                     <img className={`w-100 ${style.imgStyle}`} src={simone} alt="" />
                     <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
                         <a target='_blank' href="https://github.com/AhmedHassan222/simonee">
