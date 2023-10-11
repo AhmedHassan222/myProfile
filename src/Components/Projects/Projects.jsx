@@ -9,6 +9,7 @@ import crud from "../../assets/cruds.png"
 import calculator from "../../assets/calculator.png"
 import AProfile from "../../assets/A..png"
 import { Helmet } from 'react-helmet'
+import educavo from '../../assets/educavo.png'
 import eMarket from "../../assets/eMarket.png"
 export default function Project() {
 
@@ -17,6 +18,7 @@ export default function Project() {
         document.querySelector('#two').classList.remove('d-none')
         document.querySelector('#three').classList.remove('d-none')
         document.querySelector('#four').classList.remove('d-none')
+        document.querySelector('#elephen').classList.remove('d-none')
         document.querySelector('#five').classList.remove('d-none')
         document.querySelector('#six').classList.remove('d-none')
         document.querySelector('#seven').classList.remove('d-none')
@@ -34,6 +36,8 @@ export default function Project() {
         document.querySelector('#one').classList.remove('d-none')
         document.querySelector('#ten').classList.remove('d-none')
         document.querySelector('#two').classList.add('d-none')
+        document.querySelector('#elephen').classList.add('d-none')
+
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
         document.querySelector('#five').classList.add('d-none')
@@ -55,6 +59,7 @@ export default function Project() {
         document.querySelector('#four').classList.add('d-none')
         document.querySelector('#five').classList.add('d-none')
         document.querySelector('#ten').classList.add('d-none')
+        document.querySelector('#elephen').classList.add('d-none')
 
         document.querySelector('#six').classList.add('d-none')
         document.querySelector('#seven').classList.add('d-none')
@@ -73,6 +78,7 @@ export default function Project() {
         document.querySelector('#four').classList.remove('d-none')
         document.querySelector('#five').classList.remove('d-none')
         document.querySelector('#ten').classList.add('d-none')
+        document.querySelector('#elephen').classList.remove('d-none')
 
         document.querySelector('#six').classList.add('d-none')
         document.querySelector('#seven').classList.add('d-none')
@@ -90,6 +96,7 @@ export default function Project() {
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
         document.querySelector('#ten').classList.add('d-none')
+        document.querySelector('#elephen').classList.add('d-none')
 
         document.querySelector('#five').classList.add('d-none')
         document.querySelector('#six').classList.remove('d-none')
@@ -151,6 +158,17 @@ export default function Project() {
                         </a>
                     </div>
                 </div>
+                <div id='elephen' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  `} >
+                    <img className={`w-100 ${style.imgStyle}`} src={educavo} alt="" />
+                    <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
+                        <a target='_blank' href="https://github.com/AhmedHassan222/Educavo">
+                            <i class={`fa-solid fa-code fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                        </a>
+                        <a target='_blank' href="https://ahmedhassan222.github.io/Educavo/">
+                            <i class={`fa-solid fa-display fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                        </a>
+                    </div>
+                </div>
                 <div id='two' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  `} >
                     <img className={`w-100 ${style.imgStyle}`} src={noxe} alt="" />
                     <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
@@ -162,6 +180,7 @@ export default function Project() {
                         </a>
                     </div>
                 </div>
+
                 <div id='three' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box}  `} >
                     <img className={`w-100 ${style.imgStyle}`} src={backery} alt="" />
                     <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
