@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/myProfile/static/css/main.fa16bf46.css",
-    "main.js": "/myProfile/static/js/main.680f2f96.js",
+    "main.js": "/myProfile/static/js/main.fdc634f6.js",
     "static/js/787.419af693.chunk.js": "/myProfile/static/js/787.419af693.chunk.js",
     "static/media/Backery.png": "/myProfile/static/media/Backery.b7633f0f62c59de973aa.png",
     "static/media/noxe.png": "/myProfile/static/media/noxe.ebee08320decba9b1894.png",
     "static/media/react-movie-app.png": "/myProfile/static/media/react-movie-app.a004e109e969ad0d59c2.png",
+    "static/media/educavo.png": "/myProfile/static/media/educavo.7f3997c5e18a84cbafbb.png",
     "static/media/simone.png": "/myProfile/static/media/simone.77e6fae3b7ebfdcf8670.png",
     "static/media/eMarket.png": "/myProfile/static/media/eMarket.9eb3fcad806208e03191.png",
     "static/media/fa-solid-900.ttf": "/myProfile/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -24,11 +25,11 @@
     "static/media/fa-v4compatibility.woff2": "/myProfile/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/myProfile/index.html",
     "main.fa16bf46.css.map": "/myProfile/static/css/main.fa16bf46.css.map",
-    "main.680f2f96.js.map": "/myProfile/static/js/main.680f2f96.js.map",
+    "main.fdc634f6.js.map": "/myProfile/static/js/main.fdc634f6.js.map",
     "787.419af693.chunk.js.map": "/myProfile/static/js/787.419af693.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa16bf46.css",
-    "static/js/main.680f2f96.js"
+    "static/js/main.fdc634f6.js"
   ]
 }
