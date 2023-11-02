@@ -21,19 +21,20 @@ export default function Header() {
                 <div className={`row ${style.content}`}>
                     <div className={`col-sm-12 col-md-6 col-lg-6 wow bounceInRight ${style.right}`}>
                         <div className='d-flex justify-content-center '>
-                            <img src={profilePic} alt="" className={` mx-auto  rounded-circle ${style.imgStyle} `} />
+                            <img src={profilePic} alt="" className={` mx-auto  rounded-circle ${style.imgStyle}  `} />
                         </div>
                     </div>
                     <div className={`col-sm-12 col-md-6 col-lg-6   align-self-center ${style.left} `}>
                         <h3 className={`${style.heading3} wow bounceInLeft`}>Hello,</h3>
                         <h1 className={`${style.mainHeading} wow my-3`}>I'm Ahmed Hassan</h1>
-                        <h3> <span>. </span>
+                        <h3> <span >|</span>
 
 
                             <Typed
                                 strings={[
                                     'Front End Developer',
-                                    'AngularJS | ReactJS'
+                                    'ReactJS',
+                                    'Angular'
                                 ]}
                                 showCursor={false}
                                 typeSpeed={80}
@@ -43,9 +44,11 @@ export default function Header() {
                                 <span className={`mt-3 wow bounceInLeft`}></span>
                             </Typed>
                         </h3>
-                        <button className={`py-3 btn btn-danger  wow bounceInLeft text-white mt-4`}>
-                            <Link className={`text-white nav-link ${style.linkStyle}`} to={'contact'} >CONTACT ME</Link>
-                        </button>
+                        <Link className={`text-white nav-link ${style.linkStyle}`} to={'contact'} >
+                            <button className={`py-3 btn btn-danger  wow bounceInLeft text-white mt-4`}> CONTACT ME</button>
+
+                        </Link>
+
 
                     </div>
 

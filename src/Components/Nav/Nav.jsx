@@ -1,23 +1,12 @@
 
 import { Link } from "react-router-dom"
-import { useNavigate } from "react-router-dom"
 import style from "./Nav.module.css"
 
 export default function Nav() {
-    let navigate = useNavigate()
-    window.addEventListener('scroll', function () {
-        if (this.window.scrollY >= 100) {
-            this.document.querySelector('nav').classList.replace('py-3', 'py-1')
-        } else {
-            this.document.querySelector('nav').classList.replace('py-1', 'py-3')
-
-
-        }
-    })
 
 
     return <>
-        <nav className="navbar navbar-expand-lg bg-white  py-3">
+        <nav className="navbar navbar-expand-lg bg-white  py-1">
             <div className="container">
                 <span className="navbar-brand fs-1 h1">A.</span>
                 <button className={`border-0 bg-transparent fs-5 ${style.smallButton}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

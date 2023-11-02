@@ -14,6 +14,8 @@ header
 .imgStyle {
     background-color: rgb(247, 247, 176);
     width: 60%;
+    box-shadow: 0px 0px 10px rgb(238, 238, 238);
+    border: white solid 4px;
 }
 
 @media screen and (min-width:0px) and (max-width:576px) {
@@ -187,3 +189,4 @@ section .air.air4 {
         background-position-x: -1000px;
     }
 }
+
