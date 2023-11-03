@@ -11,10 +11,12 @@ import AProfile from "../../assets/A..png"
 import { Helmet } from 'react-helmet'
 import educavo from '../../assets/educavo.png'
 import eMarket from "../../assets/eMarket.png"
+import ApAr from "../../assets/Annotation 2023-11-03 221617.png"
 export default function Project() {
 
     function allProjects() {
         document.querySelector('#one').classList.remove('d-none')
+        document.querySelector('#twelve').classList.remove('d-none')
         document.querySelector('#two').classList.remove('d-none')
         document.querySelector('#three').classList.remove('d-none')
         document.querySelector('#four').classList.remove('d-none')
@@ -29,15 +31,15 @@ export default function Project() {
         document.querySelector('#reactJS').style.cssText = 'color:black'
         document.querySelector('#AngularJS').style.cssText = 'color:black'
         document.querySelector('#JavaScript').style.cssText = 'color:black'
-        document.querySelector('#LandingPage').style.cssText = 'color:black'
 
     }
     function reactJS() {
+        document.querySelector('#twelve').classList.add('d-none')
+
         document.querySelector('#one').classList.remove('d-none')
         document.querySelector('#ten').classList.remove('d-none')
         document.querySelector('#two').classList.add('d-none')
         document.querySelector('#elephen').classList.add('d-none')
-
         document.querySelector('#three').classList.add('d-none')
         document.querySelector('#four').classList.add('d-none')
         document.querySelector('#five').classList.add('d-none')
@@ -50,9 +52,10 @@ export default function Project() {
         document.querySelector('#reactJS').style.cssText = 'color:#0a58ca'
         document.querySelector('#AngularJS').style.cssText = 'color:black'
         document.querySelector('#JavaScript').style.cssText = 'color:black'
-        document.querySelector('#LandingPage').style.cssText = 'color:black'
     }
     function AngularJS() {
+        document.querySelector('#twelve').classList.add('d-none')
+
         document.querySelector('#one').classList.add('d-none')
         document.querySelector('#two').classList.remove('d-none')
         document.querySelector('#three').classList.add('d-none')
@@ -60,7 +63,6 @@ export default function Project() {
         document.querySelector('#five').classList.add('d-none')
         document.querySelector('#ten').classList.add('d-none')
         document.querySelector('#elephen').classList.add('d-none')
-
         document.querySelector('#six').classList.add('d-none')
         document.querySelector('#seven').classList.add('d-none')
         document.querySelector('#eight').classList.add('d-none')
@@ -69,36 +71,17 @@ export default function Project() {
         document.querySelector('#reactJS').style.cssText = 'color:black'
         document.querySelector('#AngularJS').style.cssText = 'color:#0a58ca'
         document.querySelector('#JavaScript').style.cssText = 'color:black'
-        document.querySelector('#LandingPage').style.cssText = 'color:black'
-    }
-    function LandingPage() {
-        document.querySelector('#one').classList.add('d-none')
-        document.querySelector('#two').classList.add('d-none')
-        document.querySelector('#three').classList.remove('d-none')
-        document.querySelector('#four').classList.remove('d-none')
-        document.querySelector('#five').classList.remove('d-none')
-        document.querySelector('#ten').classList.add('d-none')
-        document.querySelector('#elephen').classList.remove('d-none')
-
-        document.querySelector('#six').classList.add('d-none')
-        document.querySelector('#seven').classList.add('d-none')
-        document.querySelector('#eight').classList.add('d-none')
-        document.querySelector('#nine').classList.add('d-none')
-        document.querySelector('#allProjects').style.cssText = 'color:black'
-        document.querySelector('#reactJS').style.cssText = 'color:black'
-        document.querySelector('#AngularJS').style.cssText = 'color:black'
-        document.querySelector('#JavaScript').style.cssText = 'color:black'
-        document.querySelector('#LandingPage').style.cssText = 'color:#0a58ca'
     }
     function JavaScript() {
+        document.querySelector('#twelve').classList.remove('d-none')
+
         document.querySelector('#one').classList.add('d-none')
         document.querySelector('#two').classList.add('d-none')
-        document.querySelector('#three').classList.add('d-none')
-        document.querySelector('#four').classList.add('d-none')
         document.querySelector('#ten').classList.add('d-none')
         document.querySelector('#elephen').classList.add('d-none')
-
-        document.querySelector('#five').classList.add('d-none')
+        document.querySelector('#three').classList.remove('d-none')
+        document.querySelector('#four').classList.remove('d-none')
+        document.querySelector('#five').classList.remove('d-none')        
         document.querySelector('#six').classList.remove('d-none')
         document.querySelector('#seven').classList.remove('d-none')
         document.querySelector('#eight').classList.remove('d-none')
@@ -107,7 +90,6 @@ export default function Project() {
         document.querySelector('#reactJS').style.cssText = 'color:black'
         document.querySelector('#AngularJS').style.cssText = 'color:black'
         document.querySelector('#JavaScript').style.cssText = 'color:#0a58ca'
-        document.querySelector('#LandingPage').style.cssText = 'color:black'
     }
     return <>
         <Helmet>
@@ -130,13 +112,21 @@ export default function Project() {
                         <span id='AngularJS' onClick={AngularJS} className={`nav-link ${style.tabItem}`} >AngularJS</span>
                     </li>
                     <li className="nav-item">
-                        <span id='LandingPage' onClick={LandingPage} className={`nav-link ${style.tabItem}`} >Landing Page</span>
-                    </li>
-                    <li className="nav-item">
-                        <span id='JavaScript' onClick={JavaScript} className={`nav-link ${style.tabItem}`} >JavaScript</span>
+                        <span id='JavaScript' onClick={JavaScript} className={`nav-link ${style.tabItem}`} >Vanilla JS</span>
                     </li>
                 </ul>
                 <div className="row py-5 g-4">
+                    <div id='twelve' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box} `} >
+                        <img className={`w-100 ${style.imgStyle}`} src={ApAr} alt="" />
+                        <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
+                            <a target='_blank' href="https://github.com/AhmedHassan222/AP.AR-Books">
+                                <i class={`fa-solid fa-code fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                            </a>
+                            <a target='_blank' href="https://ahmedhassan222.github.io/AP.AR-Books/">
+                                <i class={`fa-solid fa-display fs-5 mx-1  ${style.bgStyle} rounded-circle p-3 text-white`}></i>
+                            </a>
+                        </div>
+                    </div>
                     <div id='ten' className={`col-sm-12 col-md-4 col-lg-4 position-relative ${style.box} `} >
                         <img className={`w-100 ${style.imgStyle}`} src={eMarket} alt="" />
                         <div className={` ${style.positionStyle} position-absolute d-flex justify-content-center align-items-center`}>
