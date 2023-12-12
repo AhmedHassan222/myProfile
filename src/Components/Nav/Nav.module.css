@@ -9,8 +9,8 @@
     .smallview {
         justify-content: space-around;
         align-items: center;
+        height: 75vh;
         display: flex;
-        height: 100%;
 
 
     }
@@ -30,15 +30,13 @@
     }
     .aside 
     {
-        background-color: rgba(255, 255, 255);
+        background-color: rgb(255, 255, 255);
         position: fixed;
-        width: 100%;
-        top: 10%;
-        height: 50vh;
-        left: -100%;
-        z-index: 5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555;
-        
-        
+        width: 75%;
+        top: 0%;
+        left: -75%;
+        z-index: 5555555555555555555555555555555555555;
+        bottom: 0%;
         
     }
    
@@ -58,5 +56,5 @@ a:hover
 }
 .close 
 {
-    left: -100%;
+    left: -75%;
 }

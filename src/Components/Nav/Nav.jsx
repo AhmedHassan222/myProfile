@@ -4,23 +4,6 @@ import style from "./Nav.module.css"
 import { useEffect, useState } from "react";
 
 export default function Nav() {
-    const [scrollY, setScrollY] = useState(0)
- 
-    useEffect(() => {
-        if(scrollY >=0){
-            setIsOpen(false);
-            document.querySelector('#close').classList.replace('d-block','d-none')
-            document.querySelector('#open').classList.replace('d-none','d-block')
-            document.querySelector(`.${style.aside}`).classList.add(`${style.close}`)
-            document.querySelector(`.${style.aside}`).classList.remove(`${style.open}`)
-        }
-        
-
-    }, [scrollY])
-
-    window.addEventListener('scroll', function () {
-        setScrollY(this.window.scrollY)
-    })
 
     const [isOpen, setIsOpen] = useState(false)
     function togleMenu() {
