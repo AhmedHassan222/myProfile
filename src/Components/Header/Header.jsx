@@ -24,7 +24,7 @@ export default function Header() {
                             <img src={profilePic} alt="" className={` mx-auto  rounded-circle ${style.imgStyle}  `} />
                         </div>
                     </div>
-                    <div className={`col-sm-12 col-md-6 col-lg-6   align-self-center ${style.left} `}>
+                    <div className={`col-sm-12 col-md-6 col-lg-6  align-self-center ${style.left} `}>
                         <h3 className={`${style.heading3} wow bounceInLeft`}>Hello,</h3>
                         <h1 className={`${style.mainHeading} wow my-3`}>I'm Ahmed Hassan</h1>
                         <h3> <span >|</span>

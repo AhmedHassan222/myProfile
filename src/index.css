@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Martian Mono', monospace;
@@ -16,4 +17,16 @@ body {
 }
 
 
+body::-webkit-scrollbar 
+{
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb
+{
+  background-color: #dc3545;
+}
 
+
+body::-webkit-scrollbar {
+  width: 5px;
+}

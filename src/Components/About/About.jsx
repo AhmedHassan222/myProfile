@@ -78,7 +78,7 @@ export default function About() {
             </div>
 
 
-            <Link className={`text-white nav-link ${style.linkStyle}`} to={'https://drive.google.com/file/d/1vQnaPp4quzNzoK3vmiCGOwfMbWBAckSB/view?usp=sharing'} >
+            <Link target="_blanck" className={`text-white nav-link ${style.linkStyle}`} to={'https://drive.google.com/file/d/1vQnaPp4quzNzoK3vmiCGOwfMbWBAckSB/view?usp=sharing'} >
                 <button className={`py-3 btn btn-danger   text-white mt-4`}>Review Resume</button>
 
             </Link>

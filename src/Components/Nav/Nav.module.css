@@ -1,6 +1,5 @@
 
 
-
 .smallButton {
     display: none;
 }
@@ -10,8 +9,8 @@
     .smallview {
         justify-content: space-around;
         align-items: center;
-        height: 50vh;
-
+        height: 75vh;
+        display: flex;
 
 
     }
@@ -21,14 +20,41 @@
         display: block !important;
 
     }
+    .smallButton:hover 
+    {
+        cursor: pointer;
+    }
     .linkStyle 
     {
         font-size: 12px;
     }
-
+    .aside 
+    {
+        background-color: rgba(255, 255, 255, 0.9);
+        position: fixed;
+        width: 75%;
+        top: 0%;
+        left: -75%;
+        z-index: 5555555555555555555555555555555555555;
+        bottom: 0%;
+        
+    }
+   
+  
 }
 
 a:hover
 {
     color: #0a58ca !important;
+}
+
+
+
+.open 
+{
+    left: 0%;
+}
+.close 
+{
+    left: -75%;
 }
